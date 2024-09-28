@@ -33,6 +33,7 @@ setTimeout(()=>{
                                     cenDiv.innerText = count;
                                     setTimeout(()=>{
                                         cenDiv.innerText = "Happy Independence Day";
+                                        document.body.style.backgroundImage = 'url("./assets/flag.jpg")';
                                         document.body.style.backgroundSize = "100% 100%";
                                     },mileSec);
                                 },mileSec);
